@@ -47,7 +47,7 @@ Create table Maintenance
 		BusServiceKey int  required
 		MaintenanceNotes  variable character
 */
-
+	
 Use MetroAlt
 Create table MaintenanceDetail
 (
