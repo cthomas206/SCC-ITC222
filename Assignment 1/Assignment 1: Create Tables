@@ -6,6 +6,7 @@
   1/10/17
 /*
 
+
 /*
 	Assignment 1_1
 	Add the following tables to metroAlt with the following columns and constraints
@@ -37,7 +38,6 @@ Create table Maintenance
 	MainenanceDate Date not null,
 	BusKey int not null foreign key references Bus(BusKey)
 )
-
 
 /*
 	3.	MaintenanceDetail (we will use Alter table statements to add Keys to this table)
