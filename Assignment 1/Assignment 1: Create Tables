@@ -7,12 +7,12 @@
 /*
 
 /*
-Assignment 1_1
-Add the following tables to metroAlt with the following columns and constraints
-1.	BusService
-	BusServiceKey int identity primary key
-	BusServiceName variable character, required
-	BusServiceDescription variable character
+	Assignment 1_1
+	Add the following tables to metroAlt with the following columns and constraints
+	1.	BusService
+		BusServiceKey int identity primary key
+		BusServiceName variable character, required
+		BusServiceDescription variable character
 */
 
 Use MetroAlt
@@ -25,10 +25,10 @@ Create table BusService
 
 
 /*
-2.	Maintenance
-	MaintenanceKey int, an identity, primary key
-	MainenanceDate Date, required
-	Buskey int foreign key related to Bus, required
+	2.	Maintenance
+		MaintenanceKey int, an identity, primary key
+		MainenanceDate Date, required
+		Buskey int foreign key related to Bus, required
 */
 Use MetroAlt
 Create table Maintenance
@@ -40,12 +40,12 @@ Create table Maintenance
 
 
 /*
-3.	MaintenanceDetail (we will use Alter table statements to add Keys to this table)
-	MaintenanceDetailKey int identity 
-	Maintenancekey int  required
-	EmployeeKey int  required
-	BusServiceKey int  required
-	MaintenanceNotes  variable character
+	3.	MaintenanceDetail (we will use Alter table statements to add Keys to this table)
+		MaintenanceDetailKey int identity 
+		Maintenancekey int  required
+		EmployeeKey int  required
+		BusServiceKey int  required
+		MaintenanceNotes  variable character
 */
 
 Use MetroAlt
