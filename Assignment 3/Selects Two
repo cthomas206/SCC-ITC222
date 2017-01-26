@@ -1,0 +1,18 @@
+Alias all calculated fields
+
+List the years in which employees were hired, sort by year and then last name.
+What is the difference in Months between the first employee hired and the last one.
+Output the employee phone number so it looks like (206)555-1234.
+Output the employee hourly wage so it looks like $45.00 (EmployeePosition).
+List only the employees who were hired between 2013 and 2015.
+Output the position, the hourly wage and the hourly wage multiplied by 40 to see what a weekly wage might look like.
+What is the highest hourly pay rate (EmployeePosition)?
+What is the lowest hourly pay rate?
+What is the average hourly pay rate?
+What is the average pay rate by position?
+Provide a count of how many employees were hired each year and each month of the year.
+Do the query 11 again but with a case structure to output the months as words.
+Return which positions average more than $50 an hour.
+List the total number of riders on Metroalt busses (RiderShip).
+List all the tables in the metroAlt databases (system views).
+List all the databases on server.
